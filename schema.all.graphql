@@ -1,0 +1,13 @@
+type PersonName {
+  displayName: String
+}
+
+type PersonaEmailAddress {
+  address: String
+  displayName: String
+}
+
+type Person {
+  defaultEmailAddress: PersonaEmailAddress
+  defaultName: PersonName
+}
