@@ -1,0 +1,13 @@
+{
+    "name": "@1js/another-project-with-email-address",
+    "version": "0.0.1",
+    "dependencies": {
+        "@nova/react": "^1.0.8",
+        "@nova/types": "^1.2.4",
+        "@graphitation/graphql-js-tag": "^0.9.0"
+    },
+    "main": "./src/index.ts",
+    "scripts": {
+        "generate": "nova-graphql-compiler --schema ../../schema.all.graphql --src ./src --watchman false"
+    }
+}

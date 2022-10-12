@@ -2,6 +2,7 @@
     "private": true,
     "workspaces": [
         "./packages/email-address",
-        "./packages/contact-profile"
+        "./packages/contact-profile",
+        "./packages/another-project-with-email-address"
     ]
 }
